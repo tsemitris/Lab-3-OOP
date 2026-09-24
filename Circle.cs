@@ -36,4 +36,9 @@ public class Circle
     {
         return Math.Round(Radius * 2 * pi, 2);
     }
+
+    public double GetVolume()
+    {
+        return Math.Round(4 * pi * Math.Pow(Radius, 3) / 3, 2);
+    }
 }
