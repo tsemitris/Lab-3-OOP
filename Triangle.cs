@@ -40,4 +40,9 @@ public class Triangle
         Base = Math.Round(triangleBase, 2);
         Height = Math.Round(triangleHeight, 2);
     }
+
+    public double GetArea()
+    {
+        return Math.Round((Base * Height) / 2);
+    }
 }
