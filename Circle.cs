@@ -6,6 +6,7 @@ namespace OOP;
 public class Circle
 {
     double _radius;
+    double pi = Math.PI;
 
     public double Radius
     {
@@ -26,4 +27,8 @@ public class Circle
         Radius = Math.Round(radius, 2);
     }
 
+    public double GetArea()
+    {
+        return Math.Round(Radius * Radius * pi, 2);
+    }
 }
