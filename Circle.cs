@@ -31,4 +31,9 @@ public class Circle
     {
         return Math.Round(Radius * Radius * pi, 2);
     }
+
+    public double GetCircumference()
+    {
+        return Math.Round(Radius * 2 * pi, 2);
+    }
 }
