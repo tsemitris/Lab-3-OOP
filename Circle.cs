@@ -20,4 +20,10 @@ public class Circle
             _radius = value;
         }
     }
+
+    public Circle(double radius)
+    {
+        Radius = Math.Round(radius, 2);
+    }
+
 }
