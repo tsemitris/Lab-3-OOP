@@ -9,6 +9,7 @@ class Program
         PrintCircleInfo(5);
         PrintCircleInfo(6);
 
+        PrintTriangleInfo(6, 4);
     }
 
     static void PrintCircleInfo(double radius)
@@ -20,4 +21,10 @@ class Program
         Console.WriteLine($"Volume: {circle.GetVolume()}.\n");
     }
 
+    static void PrintTriangleInfo(double triangleBase, double triangleHeight)
+    {
+        Triangle triangle = new Triangle(triangleBase, triangleHeight);
+
+        Console.WriteLine($"Triangle info: \nArea: {triangle.GetArea()}cm²");
+    }
 }
