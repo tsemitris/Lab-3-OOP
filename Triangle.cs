@@ -55,6 +55,6 @@ public class Triangle
     // Method to get area
     public double GetArea()
     {
-        return Math.Round((Base * Height) / 2);
+        return Math.Round(Base * Height / 2);
     }
 }
