@@ -6,7 +6,6 @@ public class Triangle
 {
     double _base;
     double _height;
-    double pi = Math.PI;
 
     public double Base
     {
