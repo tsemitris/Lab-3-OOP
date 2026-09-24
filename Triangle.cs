@@ -34,4 +34,10 @@ public class Triangle
             _height = value;
         }
     }
+
+    public Triangle(double triangleBase, double triangleHeight)
+    {
+        Base = Math.Round(triangleBase, 2);
+        Height = Math.Round(triangleHeight, 2);
+    }
 }
