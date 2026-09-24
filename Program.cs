@@ -14,6 +14,7 @@ class Program
 
     static void PrintCircleInfo(double radius)
     {
+        // Create object for Class Circle and sends radius parameter 
         Circle circle = new Circle(radius);
 
         Console.WriteLine($"Circle info: \nRadius: {radius} \nArea: {circle.GetArea()}.");
@@ -23,6 +24,7 @@ class Program
 
     static void PrintTriangleInfo(double triangleBase, double triangleHeight)
     {
+        // Create object for Class Triangle and sends radius parameter 
         Triangle triangle = new Triangle(triangleBase, triangleHeight);
 
         Console.WriteLine($"Triangle info: \nArea: {triangle.GetArea()}cm²");
